@@ -62,7 +62,7 @@ The following values are taken from **Table 20** of the report:
 
 ### Three-phase inverter output
 
-[![Three-phase inverter voltage and current waveforms](https://github.com/shanks005/Ground-Power-Unit/blob/main/115V_Inverter_Output.pdf)
+[![Three-phase inverter voltage and current waveforms](https://github.com/shanks005/Ground-Power-Unit/blob/main/115V_Inverter_Output-1.png)
 
 *Unfiltered and filtered three-phase inverter voltages and load currents (report Figure 15, p. 22).*
 
