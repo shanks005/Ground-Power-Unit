@@ -68,7 +68,7 @@ The following values are taken from **Table 20** of the report:
 
 ### 28 V DC output
 
-[![Buck converter output voltage](https://github.com/shanks005/Ground-Power-Unit/blob/main/buck_converter_output.pdf)
+[![Buck converter output voltage](https://github.com/shanks005/Ground-Power-Unit/blob/main/buck_converter_output-1.png)
 
 *Buck converter output voltage versus time (report Figure 19, p. 26).*
 
