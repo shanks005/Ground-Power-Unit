@@ -15,7 +15,7 @@
 | DC output | 28 V | 27.8729 V (Table 22) |
 | DC output ripple | Low | 0.1167 V peak-to-peak (Table 22) |
 
-Values above reproduce **Tables 21–22** of the [project report](docs/Ground_Power_Unit_Report.pdf); the report's summary **Table 23** contains some differing numerical entries. The reported values should therefore be treated as simulation results, not independently validated measurements.
+Values above reproduce **Tables 21–22** of the [project report](https://github.com/shanks005/Ground-Power-Unit/blob/main/Ground_Power_Unit_Report.pdf); the report's summary **Table 23** contains some differing numerical entries. The reported values should therefore be treated as simulation results, not independently validated measurements.
 
 ## System architecture
 
@@ -39,7 +39,7 @@ The boost and buck stages employ feedback control in the schematic, while the th
 
 ### PLECS schematic
 
-[![Ground Power Unit PLECS schematic](figures/gpu_schematic.png)](figures/gpu_schematic.png)
+[![Ground Power Unit PLECS schematic](https://github.com/shanks005/Ground-Power-Unit/blob/main/gpu_schematic.png)
 
 *Figure 13 of the report, p. 17. Select the image to view at full resolution.*
 
@@ -62,13 +62,13 @@ The following values are taken from **Table 20** of the report:
 
 ### Three-phase inverter output
 
-[![Three-phase inverter voltage and current waveforms](figures/three_phase_inverter_waveforms.png)](figures/three_phase_inverter_waveforms.png)
+[![Three-phase inverter voltage and current waveforms](https://github.com/shanks005/Ground-Power-Unit/blob/main/115V_Inverter_Output.pdf)
 
 *Unfiltered and filtered three-phase inverter voltages and load currents (report Figure 15, p. 22).*
 
 ### 28 V DC output
 
-[![Buck converter output voltage](figures/buck_output_28v.png)](figures/buck_output_28v.png)
+[![Buck converter output voltage](https://github.com/shanks005/Ground-Power-Unit/blob/main/buck_converter_output.pdf)
 
 *Buck converter output voltage versus time (report Figure 19, p. 26).*
 
@@ -76,17 +76,17 @@ The following values are taken from **Table 20** of the report:
 
 | Plot | Link | Source |
 |---|---|---|
-| Rectifier / boost-stage voltage | [View waveform](figures/rectifier_boost_voltage.png) | Figure 14, p. 21 |
-| AC voltage and current frequency spectrum | [View FFT spectrum](figures/ac_harmonic_spectrum.png) | Figure 16, p. 23 |
-| Input and step-down transformer voltages | [View waveforms](figures/transformer_voltage_waveforms.png) | Figure 17, p. 24 |
-| Rectified intermediate DC voltage (~57 V) | [View waveform](figures/rectified_dc_57v.png) | Figure 18, p. 25 |
+| Rectifier / boost-stage voltage | [View waveform](https://github.com/shanks005/Ground-Power-Unit/blob/main/3ph_rectifier_boost_output.pdf) | Figure 14, p. 21 |
+| AC voltage and current frequency spectrum | [View FFT spectrum](https://github.com/shanks005/Ground-Power-Unit/blob/main/115V_thd_analysis.pdf) | Figure 16, p. 23 |
+| Input and step-down transformer voltages | [View waveforms](https://github.com/shanks005/Ground-Power-Unit/blob/main/grid_transformer_output.pdf) | Figure 17, p. 24 |
+| Rectified intermediate DC voltage (~57 V) | [View waveform](https://github.com/shanks005/Ground-Power-Unit/blob/main/3ph_rectifier_output.pdf) | Figure 18, p. 25 |
 
 > **Figure-label clarification:** Report Figure 16 is captioned as a buck-converter output, but the plotted x-axis is frequency and the legends are three-phase voltage/current signals. It is linked above as a frequency spectrum rather than a buck-converter waveform.
 
 ## Documentation
 
-- **[Project report (PDF)](docs/Ground_Power_Unit_Report.pdf)** — see **Section 5, pp. 17–27**, for the GPU design, model, parameters and results.
-- **[Simulation schematic](figures/gpu_schematic.png)** — extracted at its native resolution.
+- **[Project report (PDF)](https://github.com/shanks005/Ground-Power-Unit/blob/main/Ground_Power_Unit_Report.pdf)** — see **Section 5, pp. 17–27**, for the GPU design, model, parameters and results.
+- **[Simulation schematic](https://github.com/shanks005/Ground-Power-Unit/blob/main/gpu_schematic.png)** — extracted at its native resolution.
 - **[Plot index](#simulation-figures)** — quick access to the waveforms.
 
 ## Repository structure
